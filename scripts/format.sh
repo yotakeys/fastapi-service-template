@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-black app && isort app
+pipenv run black app && pipenv run isort app

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pylint app && mypy app
+pipenv run pylint app && pipenv run mypy app
