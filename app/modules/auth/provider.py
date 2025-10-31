@@ -1,5 +1,5 @@
-from app.databases.mysql.core import db
-from app.databases.mysql.repositories import UserRepository
+from app.databases.mysql import db
+from app.databases.mysql import UserRepository
 
 from .service import AuthService
 

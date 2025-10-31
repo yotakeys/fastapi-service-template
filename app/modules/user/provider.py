@@ -1,8 +1,7 @@
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
-from app.databases.mysql.core import db
-from app.databases.mysql.repositories import UserRepository
+from app.databases.mysql import db, UserRepository
 from app.shared.auth import jwt_manager
 
 from .service import UserService

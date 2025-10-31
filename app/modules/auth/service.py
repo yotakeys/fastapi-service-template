@@ -1,8 +1,8 @@
 import bcrypt
 from fastapi import HTTPException, status
 
-from app.databases.mysql.entities import User
-from app.databases.mysql.repositories import UserRepository
+from app.databases.mysql import User
+from app.databases.mysql import UserRepository
 from app.shared.auth import jwt_manager
 
 

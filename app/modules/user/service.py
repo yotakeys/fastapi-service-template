@@ -1,7 +1,6 @@
 from fastapi import HTTPException
 
-from app.databases.mysql.entities import User
-from app.databases.mysql.repositories import UserRepository
+from app.databases.mysql import User, UserRepository
 from app.modules.auth import AuthService
 
 from .schema import UserCreate
